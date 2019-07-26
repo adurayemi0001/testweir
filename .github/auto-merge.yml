@@ -5,7 +5,7 @@ deleteBranchAfterMerge: true
 reportStatus: true
 
 minApprovals:
-  MEMBER: 1
+  NONE: 1
 maxRequestedChanges:
   NONE: 0
 blockingLabels:
@@ -15,6 +15,6 @@ blockingLabels:
 # the owner has approved or merge label was added.
 rules:
 - minApprovals:
-    MEMBER: 1
+    NONE: 1
 - requiredLabels:
   - merge
